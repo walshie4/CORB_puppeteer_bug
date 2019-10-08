@@ -1,13 +1,10 @@
+#CORB bug example
 
-Content Script Cross-Domain XMLHttpRequest Example
-=======
 
-Demonstrates making cross domain requests from a content script by putting Twitter trends on Google News.
+How to run:
+```
+npm i
+node repro_corb.js
+```
 
-[Zipfile](http://developer.chrome.com/extensions/examples/howto/contentscript_xhr.zip)
-
-Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
-
-Calls
------
-
+Then open the console and look for the CORB warnings.
